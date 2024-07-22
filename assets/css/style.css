@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Genos", sans-serif;
+}
+p{
+    font-family: "Genos", sans-serif;  
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 17px;      
+}
+.header__nav {
+    display: flex;
+    gap: 40px;
+}
+.nav__elem {
+    font-family: "Genos", sans-serif;
+    font-weight: 400;  
+    font-size: 16px;
+    color: #000715;
+}
+.header__logo {
+   
+}
+.header__btns{
+
+}
+.header__btn {
+    border: 1px solid #fe7d86;
+    border-radius: 6px;
+    padding: 3px 21px;
+    width: 96px;
+    height: 34px;
+    color: #fe7d86;
+}
+
+.header__btn_active{
+    border-radius: 6px;
+    padding: 3px 21px;
+    width: 91px;
+    height: 34px;
+    background: #fe7d86;    
+    color: #f6faff;;
+}
+.banber {
+    background: url('../img/b.png');
+    width: 1440px;
+    height: 632px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner__content {
+    
+}
+
+.banner__title {
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 83%;
+    color: #000715;
+}
+.banner__text {
+    width: 762px;
+    height: 265px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    text-align: center;
+    color: rgba(0, 7, 21, 0.7);
+    padding: 32px 0 32px 0;
+}
+.bannet__btns {
+}
+.banner__btn {
+    font-weight: 400;
+    font-size: 22px;
+    color: #f6faff;
+    border-radius: 6px;
+    padding: 3px 21px;
+    width: 208px;
+    height: 43px;
+    background: #fe7d86;
+    transition: .3s ease-in;
+
+}
+.banner__btn:hover{
+    background-color: rgb(0, 0, 0);
+    
+}
+.pluses {
+    padding-top: 60px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pluses__title {
+    font-weight: 400;
+    font-size: 46px;
+    color: #fe7d86;
+}
+.pluses__pluses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    height: 91px;
+    
+}
+.pluses__pt {
+    font-weight: 400;
+    font-size: 26px;
+    color: #000715;
+}
+.pluses__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    color: #000715;
+}
+.katalog__selection {
+}
+.katalog__title {
+    font-weight: 400;
+    font-size: 46px;
+    color: #fe7d86;   
+}
+.katalog {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.katalog__img {
+}
+.katalog__type {
+}
+.katalog__title2 {
+    font-weight: 400;
+    font-size: 22px;
+    color: #000715;
+}
+.katalog__text2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fe7d86;
+}
+.katalog__info {
+
+}
+.info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(0, 7, 21, 0.7);
+}
+.price {
+}
+.price__text {
+}
+.bay {
+    border: 1px solid #fe7d86;
+   border-radius: 6px;
+    padding: 3px 21px;
+    width: 177px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fe7d86;
+}
+.footer {
+    
+}
+.dooter__logo {
+}
+.sub{
+    display: flex;
+    gap: 4px;
+}
+
+.email {
+    border: 1px solid #fe7d86;
+    border-radius: 6px;
+    padding: 3px 21px;
+    width: 177px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fe7d86;
+}
+.btn__sub {
+    border-radius: 6px;
+    padding: 3px 21px;
+    width: 99px;
+    height: 34px;
+    background: #fe7d86;
+    font-weight: 400;
+    font-size: 18px;
+    color: #f6faff;
+}
+.menu {
+}
+.header__nav {
+    display: flex;
+    gap: 40px;
+}
+.nav__elem {
+    font-family: "Genos", sans-serif;
+    font-weight: 400;  
+    font-size: 16px;
+    color: #000715;
+}
+.contact {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fe7d86;   
+}
